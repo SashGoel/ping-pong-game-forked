@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+html {
+  background: whitesmoke fixed;
+}
+
+#game-container {
+  position: relative;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  position: fixed;
+  top: 20px;
+  left: 52.5%;
+  border-radius: 60%;
+  background-image: radial-gradient(green 0%, black 221%);
+}
+
+#rod1,
+#rod2 {
+  width: 200px;
+  height: 20px;
+  position: fixed;
+  left: 50%;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: crimson;
+}
+
+#rod1 {
+  top: 0px;
+}
+
+#rod2 {
+  bottom: 0px;
+}
